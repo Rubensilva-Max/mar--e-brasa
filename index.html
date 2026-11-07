@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#11110f">
+  <meta name="description" content="Maré & Brasa — cozinha autoral, frutos do mar e experiências especiais.">
+  <title>Maré & Brasa | Cozinha autoral</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"><span>COZINHA AUTORAL • INGREDIENTES FRESCOS • EXPERIÊNCIAS MEMORÁVEIS</span><a href="#cardapio">FAÇA SEU PEDIDO <span>↗</span></a></div>
+  <header class="header">
+    <a class="brand" href="#"><span class="brand-mark">M<span>✦</span>B</span><span class="brand-name">MARÉ <i>&</i> BRASA<small>COZINHA CONTEMPORÂNEA</small></span></a>
+    <nav class="nav"><a href="#inicio">Início</a><a href="#conceito">Nossa essência</a><a href="#cardapio">Cardápio</a><a href="#experiencia">Experiência</a><a href="#contato">Contato</a></nav>
+    <button class="cart-button" id="openCart" aria-label="Abrir carrinho"><span class="cart-icon">♧</span><span class="cart-label">Meu pedido</span><b id="cartCount">0</b></button>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> SABOR QUE VIRA MEMÓRIA</p>
+        <h1>O melhor da<br><em>terra e do mar.</em></h1>
+        <p class="hero-copy">Uma cozinha feita com calma, ingredientes selecionados e o cuidado de transformar cada refeição em um momento especial.</p>
+        <a class="primary-btn" href="#cardapio">EXPLORAR CARDÁPIO <span>↗</span></a>
+      </div>
+      <div class="hero-caption"><span>01 / 03</span><i></i><span>FRESCO. AUTÊNTICO. INESQUECÍVEL.</span></div>
+      <div class="hero-note">FEITO PARA<br>COMPARTILHAR</div>
+    </section>
+
+    <section class="intro section-wrap" id="conceito">
+      <div class="section-kicker">— NOSSA ESSÊNCIA —</div>
+      <h2>Mais que uma refeição.<br><em>Uma experiência à mesa.</em></h2>
+      <p class="intro-text">Respeitamos o ingrediente, valorizamos o preparo e acreditamos que os melhores momentos merecem sabores à altura.</p>
+      <div class="features">
+        <article class="feature"><span class="feature-icon">✧</span><small>01 / ORIGEM</small><h3>Ingredientes<br>selecionados</h3><p>Frescor e qualidade em cada escolha, do primeiro corte ao último detalhe.</p></article>
+        <article class="feature"><span class="feature-icon">♨</span><small>02 / PREPARO</small><h3>Técnica com<br>personalidade</h3><p>Receitas que unem criatividade, textura e sabores que surpreendem.</p></article>
+        <article class="feature"><span class="feature-icon">◉</span><small>03 / MOMENTO</small><h3>Feito para<br>ser lembrado</h3><p>Uma experiência acolhedora, pensada para dividir bons momentos.</p></article>
+      </div>
+    </section>
+
+    <section class="menu-section" id="cardapio">
+      <div class="section-wrap">
+        <div class="menu-heading"><div><div class="section-kicker">— ESCOLHAS DA CASA —</div><h2>Nosso <em>cardápio.</em></h2></div><p>Escolha seus favoritos e monte seu pedido.<br><span>Preparado na hora, com todo cuidado.</span></p></div>
+        <div class="category-row" id="categories">
+          <button class="category active" data-category="Todos">Todos <span>06</span></button>
+          <button class="category" data-category="Peixes">Peixes</button>
+          <button class="category" data-category="Frutos do mar">Frutos do mar</button>
+          <button class="category" data-category="Entradas">Entradas</button>
+          <button class="category" data-category="Saladas">Saladas</button>
+        </div>
+        <div class="products" id="products"></div>
+        <div class="menu-bottom"><span>VALORES E DISPONIBILIDADE SUJEITOS A ALTERAÇÃO.</span><button class="outline-btn" id="openCart2">VER MEU PEDIDO <span>↗</span></button></div>
+      </div>
+    </section>
+
+    <section class="experience" id="experiencia">
+      <div class="experience-image"></div>
+      <div class="experience-copy"><div class="section-kicker">— O PRAZER DE COMER BEM —</div><h2>Uma pausa na rotina.<br><em>Um brinde à vida.</em></h2><p>Seja para um almoço especial ou um jantar sem pressa, nossa cozinha é um convite para aproveitar o agora.</p><a href="#cardapio" class="text-link">ESCOLHA SEU PRATO <span>↗</span></a></div>
+    </section>
+  </main>
+
+  <footer id="contato">
+    <div class="footer-main">
+      <div class="footer-brand"><a class="brand" href="#"><span class="brand-mark">M<span>✦</span>B</span><span class="brand-name">MARÉ <i>&</i> BRASA<small>COZINHA CONTEMPORÂNEA</small></span></a><p>Sabores honestos, encontros especiais<br>e uma experiência feita para você.</p></div>
+      <div><h4>EXPLORE</h4><a href="#inicio">Início</a><a href="#conceito">Nossa essência</a><a href="#cardapio">Cardápio</a></div>
+      <div><h4>ATENDIMENTO</h4><span>Pedidos pelo WhatsApp</span><span>Delivery e retirada</span><span>Consulte disponibilidade</span></div>
+      <div><h4>FALE COM A GENTE</h4><a href="https://wa.me/5585991359742" target="_blank" rel="noopener">+55 (85) 99135-9742 ↗</a><span>Todos os dias, consulte horários</span></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 MARÉ & BRASA. SITE DEMONSTRATIVO.</span><span>FEITO COM CUIDADO, DO COMEÇO AO FIM.</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-panel" id="cartPanel" aria-label="Carrinho de compras">
+    <div class="cart-head"><div><span class="section-kicker">— SEU PEDIDO —</span><h2>Sacola <em>da casa.</em></h2></div><button class="close-cart" id="closeCart" aria-label="Fechar">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart"><span>♧</span><h3>Sua sacola está vazia</h3><p>Escolha seus pratos favoritos no cardápio.</p><button class="primary-btn" id="backToMenu">VER CARDÁPIO ↗</button></div></div>
+    <div class="cart-checkout" id="checkoutArea" hidden>
+      <div class="total-line"><span>Subtotal</span><strong id="subtotal">R$ 0,00</strong></div>
+      <form id="checkoutForm">
+        <label>Como deseja receber?</label>
+        <div class="choice-row"><label class="choice"><input type="radio" name="fulfillment" value="Delivery" checked><span>Delivery</span></label><label class="choice"><input type="radio" name="fulfillment" value="Retirada"><span>Retirada</span></label></div>
+        <div id="addressField"><label for="customerAddress">Endereço para entrega</label><input id="customerAddress" type="text" placeholder="Rua, número, bairro e complemento"></div>
+        <label for="customerName">Seu nome</label><input id="customerName" type="text" placeholder="Como podemos te chamar?" required>
+        <label>Forma de pagamento</label>
+        <div class="payment-options">
+          <label class="payment-option"><input type="radio" name="payment" value="Pix" checked><span>Pix</span></label>
+          <label class="payment-option"><input type="radio" name="payment" value="Cartão de crédito"><span>Crédito</span></label>
+          <label class="payment-option"><input type="radio" name="payment" value="Cartão de débito"><span>Débito</span></label>
+          <label class="payment-option"><input type="radio" name="payment" value="Dinheiro"><span>Dinheiro</span></label>
+        </div>
+        <div id="changeField" hidden><label for="changeFor">Precisa de troco para quanto?</label><input id="changeFor" type="text" inputmode="decimal" placeholder="Ex.: R$ 100,00"></div>
+        <label for="orderNotes">Observações <span class="optional">(opcional)</span></label><textarea id="orderNotes" rows="2" placeholder="Alguma preferência ou detalhe do pedido?"></textarea>
+        <button class="send-order" type="submit">ENVIAR PEDIDO PELO WHATSAPP <span>↗</span></button>
+        <p class="secure-note">Seu pedido será enviado para confirmação pelo WhatsApp.</p>
+      </form>
+    </div>
+  </aside>
+  <div class="toast" id="toast">Adicionado à sua sacola ✓</div>
+  <script src="script.js"></script>
+</body>
+</html>
